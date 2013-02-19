@@ -20,9 +20,8 @@
    window['piro.sakura.ne.jp'].animationManager.start();
 
  license: The MIT License, Copyright (c) 2009-2012 YUKI "Piro" Hiroshi
-   http://github.com/piroor/fxaddonlibs/blob/master/license.txt
  original:
-   http://github.com/piroor/fxaddonlibs/blob/master/animationManager.js
+   http://github.com/piroor/fxaddonlib-animation-manager
 */
 
 /* To work as a JS Code Module (*require jstimer.jsm)
