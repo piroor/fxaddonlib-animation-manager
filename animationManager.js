@@ -19,13 +19,11 @@
    // restart after doing something
    window['piro.sakura.ne.jp'].animationManager.start();
 
- license: The MIT License, Copyright (c) 2009-2012 YUKI "Piro" Hiroshi
+ license: The MIT License, Copyright (c) 2009-2013 YUKI "Piro" Hiroshi
  original:
    http://github.com/piroor/fxaddonlib-animation-manager
 */
 
-/* To work as a JS Code Module (*require jstimer.jsm)
-   http://github.com/piroor/fxaddonlibs/blob/master/jstimer.jsm */
 if (typeof window == 'undefined' ||
 	(window && typeof window.constructor == 'function')) {
 	this.EXPORTED_SYMBOLS = ['animationManager'];
@@ -40,12 +38,10 @@ if (typeof window == 'undefined' ||
 	catch(e) {
 		window = {};
 	}
-	if (!('setInterval' in window))
-		Components.utils.import('resource://my-modules/jstimer.jsm', window);
 }
 
 (function() {
-	const currentRevision = 16;
+	const currentRevision = 17;
 
 	if (!('piro.sakura.ne.jp' in window)) window['piro.sakura.ne.jp'] = {};
 
