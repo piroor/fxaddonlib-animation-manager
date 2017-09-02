@@ -181,8 +181,5 @@ var animationManager;
 		}
 
 	};
-
-	if (tasks.length)
-		animationManager.start();
 })();
 
