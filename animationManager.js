@@ -115,8 +115,8 @@ var animationManager;
 			this._windows = [];
 		},
 
-		tasks    : tasks,
-		_windows : windows,
+		tasks    : [],
+		_windows : [],
 		_animatingWindows : [],
 
 		_cleanUpWindows : function()
